@@ -1,0 +1,66 @@
+.list-item-content{
+    display: flex;
+    gap: 5em;
+}
+.headers{
+    display: flex;
+    gap: 2em;
+}
+.icon-1{
+    color: green;
+}
+
+.icon-2 {
+    color: red;
+}
+.check-mark{
+    position: relative;
+    top: 10;
+}
+.check-mark-1{
+    height: 8px;
+    width: 3px;
+    background-color: green;
+    transform: rotate(
+-45deg
+);
+    position: relative;
+    bottom: 2;
+}
+.check-mark-2{
+    height: 18px;
+    width: 3px;
+    background: green;
+    transform: rotate(
+45deg
+);
+    position: relative;
+    left: 9;
+    bottom: 21;
+}
+.cross-mark{
+    position: relative;
+    top: 10;
+}
+.cross-mark-1{
+    height: 15px;
+    width: 2.5px;
+    background-color: red;
+    transform: rotate(
+-45deg
+ );
+    position: relative;
+    bottom: 5;
+    left: 10;
+}
+.cross-mark-2{
+    height: 15px;
+    width: 2.5px;
+    background: red;
+    transform: rotate( 
+        45deg
+        );
+           position: relative;
+           left: 9;
+           bottom: 21;
+       }
